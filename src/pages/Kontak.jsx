@@ -1,8 +1,8 @@
 import React from 'react'
-import Footer from '../components/footer';
 import NavBar from '../components/NavBar';
 import HeroSection from '../components/hero-section';
 import { Code2Icon, FileCog2, FileLock2Icon } from 'lucide-react';
+import Footer from '../components/Footer';
 
 function ContactPage() {
   const [activeIndex, setActiveIndex] = React.useState(null);
@@ -170,7 +170,7 @@ function ContactPage() {
         </div>
       </div>
 
-      <Footer />
+     <Footer/>
     </div>
   );
 }
