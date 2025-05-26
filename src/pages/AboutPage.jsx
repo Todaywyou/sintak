@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import NavBar from "../components/NavBar";
-import Footer from "../components/footer";
+import Footer from "../components/Footer";
+
 
 function AboutPage() {
   // State untuk menyimpan index card yang diklik
@@ -188,7 +189,7 @@ function AboutPage() {
         </div>
       </div>
 
-      <Footer />
+<Footer/>
     </div>
   );
 }
